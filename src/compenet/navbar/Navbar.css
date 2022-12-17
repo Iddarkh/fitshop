@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding:0px ;
+    font-family: 'Poppins', sans-serif;
+    
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+:root{
+    --prime:rgb(255, 0, 0);
+}
+body{
+    background-color: rgb(236, 230, 230);
+    
+}
+.navbar{
+    width: 96,5%;
+    display: flex;
+    
+    background-color: rgba(255, 255, 255, 0.839);
+    justify-content: space-between;
+    
+    transition: 0,5 ease;
+    padding: 0 20px ;
+}
+.logo{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo b{
+    color:var(--prime);
+}
+.navbar ol{
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 5px;
+    
+}
+ol li{
+    list-style: none;
+    margin-right: 20px;
+}
+ol li a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    
+}
+.btn{
+    background-color: #bfbfbf;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+ol li:hover a{
+    color:var(--prime);
+}

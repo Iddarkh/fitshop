@@ -1,0 +1,69 @@
+.start-payement{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(8, 97, 82);
+    border-radius: 20px;
+    
+    position: fixed;
+}
+.end-payement{
+    display: none;
+}
+.payement-items{
+    padding: 20px 30px;
+}
+.closing-btn{
+    text-align: end;
+    padding: 10px;
+}
+.closing-btn i{
+    color: white;
+}
+.name-items{
+    display: flex;
+}
+.cvc-input input{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.date-input input{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 15px; 
+}
+.payement-btn{
+    text-align: center;
+    margin: 20px 0;
+}
+.payement-btn button{
+    background-color: orange;
+    outline: none;
+    border: none;
+    width: 120px;
+    height: 40px;
+}
+.card-number-input input{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.card-email{
+    display: flex;
+    justify-content: space-between;
+}
+.card-details{
+    display: flex;
+}
+.ayement-items{
+    text-align: center;
+    padding: 14px 30px;
+}
